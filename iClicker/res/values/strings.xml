@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="iclicker_hello">Hello World, IClickerActivity!</string>
+    <string name="iclicker_app_name">IClicker</string>
+    <string name="openended_hello">Type your answer here:</string>
+    <string name="openended_app_name">Open Ended Answer</string>
+    <string name="openended_Submit">Submit</string>
+    <string name="multchoice">Please select an answer:</string>
+    <string name="multchoice_app_name">Multiple Choice</string>
+    <string name="multchoice_Submit">Submit</string>
+    <string name="multchoice_ButtonA">A</string>
+    <string name="multchoice_ButtonB">B</string>
+    <string name="multchoice_ButtonC">C</string>
+    <string name="multchoice_ButtonD">D</string>
+    <string name="multchoice_ButtonE">E</string>
+    <string name="lecturenotes_app_name">Lecture Notes</string>
+    <string name="options_app_name">Options</string>
+    <string name="silentmode_checkbox">Disable sounds</string>
+
+</resources>

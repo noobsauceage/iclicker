@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/multchoice" />
+    
+    <Button
+        android:id="@+id/multchoice_ButtonA"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="@+string/multchoice_ButtonA" />
+    
+    <Button
+        android:id="@+id/multchoice_ButtonB"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="@+string/multchoice_ButtonB" />
+    
+    <Button
+        android:id="@+id/multchoice_ButtonC"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="@+string/multchoice_ButtonC" />
+    
+    <Button
+        android:id="@+id/multchoice_ButtonD"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="@+string/multchoice_ButtonD" />
+    
+    <Button
+        android:id="@+id/multchoice_ButtonE"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="@+string/multchoice_ButtonE" />
+
+	<Button
+        android:id="@+id/multchoice_submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+string/multchoice_Submit" />
+
+</LinearLayout>
