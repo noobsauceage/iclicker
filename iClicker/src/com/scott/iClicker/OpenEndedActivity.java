@@ -53,7 +53,7 @@ public class OpenEndedActivity extends Activity {
 	public void submitButton_handler() {
 		submitButton = (Button) findViewById(R.id.openended_submitButton);
 		submitButton.setOnClickListener(new OnClickListener(){
-			@Override
+			//@Override
 			public void onClick(View v) {
 				System.out.println("Submit button was clicked"); 
 

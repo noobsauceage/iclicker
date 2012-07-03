@@ -40,9 +40,13 @@ public class IClickerActivity extends ListActivity {
 					
 				
 				case 2:
-					Intent lecturenotesActivity = new Intent(getApplicationContext(),
-							LectureNotesActivity.class);
-					startActivity(lecturenotesActivity);
+					//Intent lecturenotesActivity = new Intent(getApplicationContext(),
+					//		LectureNotesActivity.class);
+					//startActivity(lecturenotesActivity);
+					
+					final GetFileList getFileList = new GetFileList(getApplicationContext());
+					getFileList.execute();
+					
 					break;
 					
 				case 3:

@@ -58,7 +58,7 @@ public class MultiChoiceActivity extends Activity {
 	public void submitButton_handler() {
 		submitButton = (Button) findViewById(R.id.multchoice_submitButton);
 		submitButton.setOnClickListener(new OnClickListener(){
-			@Override
+			//@Override
 			public void onClick(View v) {
 				System.out.println("Submit button was clicked"); 
 
@@ -170,7 +170,7 @@ public class MultiChoiceActivity extends Activity {
 
 		A.setOnClickListener(new OnClickListener() {
 
-			@Override
+			//@Override
 			public void onClick(View v) {
 
 				answer = "A"; // set answer to "A"
@@ -191,7 +191,7 @@ public class MultiChoiceActivity extends Activity {
 
 		B.setOnClickListener(new OnClickListener() {
 
-			@Override
+			//@Override
 			public void onClick(View v) {
 
 				answer = "B"; // set answer to "B"
@@ -212,7 +212,7 @@ public class MultiChoiceActivity extends Activity {
 
 		C.setOnClickListener(new OnClickListener() {
 
-			@Override
+			//@Override
 			public void onClick(View v) {
 
 				answer = "C"; // set answer to "C"
@@ -233,7 +233,7 @@ public class MultiChoiceActivity extends Activity {
 
 		D.setOnClickListener(new OnClickListener() {
 
-			@Override
+			//@Override
 			public void onClick(View v) {
 
 				answer = "D"; // set answer to "D"
@@ -254,7 +254,7 @@ public class MultiChoiceActivity extends Activity {
 
 		E.setOnClickListener(new OnClickListener() {
 
-			@Override
+			//@Override
 			public void onClick(View v) {
 
 				answer = "E"; // set answer to "E"
